@@ -6,14 +6,10 @@
         <title>II Conferência Mapa Educação</title>
         <meta name="description" content="II Conferência Mapa Educação">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
+
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -23,38 +19,41 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo-conferencia.png"/></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Participantes</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="https://www.facebook.com/mapaeducacao/" target="_blank"><img src="img/icon-facebook-color.png"/></a>
-                <li><a href="#" target="_blank"><img src="img/icon-instagram-color.png"/></a>
-          </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+    <div class="wrapper">
+        <nav class="navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="#" class="navbar-toggle collapsed toggle-menu" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="navbar-brand" href="index.html"><img src="img/logo-conferencia.png"/></a>
+            </div>
+            <div id="mySidenav" class="sidenav">
+              <ul class="nav navbar-nav navbar-right">
+                    <a href="#" class="toggle-menu">&times;</a>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Participantes</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="https://www.facebook.com/mapaeducacao/" target="_blank"><img  class="icon-social-color" src="img/icon-facebook-color.png"/></a>
+                    <li><a href="#" target="_blank"><img class="icon-social-color" src="img/icon-instagram-color.png"/></a>
+              </ul>
+            </div><!--/.navbar-collapse -->
+          </div>
+        </nav>
 
     <!-- Banner -->
+  <div class="canvas">
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/logo-banner.png">
+          <div class="col-md-5">
+            <img class="logo-banner" src="img/logo-banner.png">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-7">
             <h1>Faça parte dessa mudança!</h1>
           </div>
         </div>
@@ -108,6 +107,8 @@
         <a href="#"><img src="img/icon-instagram-branco.png"></a>
       </footer>
     </div> <!-- /container -->        
+    </div>
+    </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
