@@ -13,5 +13,6 @@ function menuAction() {
     }
     else {
         wrapper.classList.add('show-menu');
+        $(this).toggleClass('open');
     }
 }
