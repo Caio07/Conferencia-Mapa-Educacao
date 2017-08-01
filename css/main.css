@@ -56,6 +56,19 @@ a:active, a:focus{
 	color: #FFF;
 }
 
+footer{
+
+	background-color: #00809e;
+	height: 160px;
+	line-height: 2rem;
+	text-align: center;
+	width: 100%;
+}
+
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
 .navbar{
 	background-color: #FFF;
 	color: #00809e;
@@ -127,19 +140,62 @@ a:active, a:focus{
 
 #participantes{
 
+	background-color: #E5E6E7;
+}
+
+.title{
 	margin-bottom: 2rem;
 }
 
-	#participantes h1{
+.titulo-participantes{
+	background-color: #00809e;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2rem;
+	padding: 1em;
+}
 
-		margin-bottom: 2rem;
+.img-participantes{
+
+	margin-bottom: 1rem;
+}
+
+	.img-participantes button{
+
+		background-color: transparent;
+		border: none;
 	}
 
-#topicos .row {
-
-	margin-right: 0;
-	margin-left: 0;
+.popup {
+	background: rgba(100, 100, 100, 0.6);
+	position: fixed;
+	display: none;
+	z-index: 5000;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
 }
+
+.popup > div {
+		border-radius: 10px;
+		position: fixed;
+		background: #FFFFFF;
+		box-shadow: 0px 0px 15px 0px rgba(#000000, 0.3);
+		padding: 30px 15px;
+		color: #00809e;
+		margin-top: 100px;
+		/* Width of popup can be changed */
+		width: 70%;
+		max-width: 600px;
+		z-index: 5001;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+  		left: 50%;
+	  	top: 50%;
+		text-align: center;
+		border: 5px solid #00809e;
+	}
 
 .square{
 
@@ -193,19 +249,7 @@ a:active, a:focus{
 	margin-top: 5rem;
 }
 
-footer{
 
-	background-color: #00809e;
-	height: 160px;
-	line-height: 2rem;
-	text-align: center;
-	width: 100%;
-}
-
-	footer .row{
-		margin-right: 0;
-		margin-left: 0;
-	}
 .icon-white{
 
 	margin: 0.5rem;
@@ -215,7 +259,7 @@ footer{
 
 /*Sobre */
 
-#sobre, #participantes, #faq{
+#sobre, #faq{
 
 	height: 500px;
 }
@@ -424,8 +468,8 @@ footer{
 	}
 
 		footer{
-	height: 80px;
-	line-height: 80px;
+		height: 80px;
+		line-height: 80px;
 	}
 }
 
