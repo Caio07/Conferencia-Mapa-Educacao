@@ -171,10 +171,12 @@ footer{
 	position: fixed;
 	display: none;
 	z-index: 5000;
-	height: 100%;
-	width: 100%;
+	height: 99999px;
+	width: 100vw;
 	left: 0;
 	top: 0;
+	-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
 }
 
 .popup > div {
@@ -184,9 +186,9 @@ footer{
 		box-shadow: 0px 0px 15px 0px rgba(#000000, 0.3);
 		padding: 30px 15px;
 		color: #00809e;
-		margin-top: 100px;
+		font-size: 0.8rem;
 		/* Width of popup can be changed */
-		width: 70%;
+		width: 90%;
 		max-width: 600px;
 		z-index: 5001;
 		-webkit-transform: translate(-50%, -50%);
@@ -195,6 +197,8 @@ footer{
 	  	top: 50%;
 		text-align: center;
 		border: 5px solid #00809e;
+		-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
+    	backface-visibility: hidden;
 	}
 
 .square{
@@ -259,11 +263,14 @@ footer{
 
 /*Sobre */
 
-#sobre, #faq{
 
-	height: 500px;
+#sobre{
+	color: #000;
 }
 
+.galeria-conferencia img{
+	padding: 1em;
+}
 @media screen and (max-width:768px){
 
 	.navbar-toggle{
@@ -339,7 +346,6 @@ footer{
     width: 100%;
     height: 100%;
     position: relative;
-    transform: translateX(0);
 	}
 
 	/* The side navigation menu */
@@ -390,6 +396,17 @@ footer{
 		display: none;
 	}
 
+	.btn{
+		font-size: 0.8em;
+	}
+
+		.btn a{
+			padding: 1rem;
+		}
+	
+	#participantes-pgprincipal img{
+		width: 80%;
+	}
 
 }
 
