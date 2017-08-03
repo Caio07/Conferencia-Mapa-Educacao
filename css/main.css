@@ -264,13 +264,34 @@ footer{
 /*Sobre */
 
 
-#sobre{
+#sobre,#informacoes{
 	color: #000;
 }
+
 
 .galeria-conferencia img{
 	padding: 1em;
 }
+
+.programacao{
+	padding: 1em 0;
+}
+
+.programacao-header, .programacao-item{
+	padding: 1em;
+}
+.programacao-item{
+	font-size: 1.5em;
+}
+.programacao-header{
+	background-color: #AEB947;
+	width: 100%;
+}
+
+	.programacao-header h3{
+		font-weight: 700;
+	}
+
 @media screen and (max-width:768px){
 
 	.navbar-toggle{
