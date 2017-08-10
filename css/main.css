@@ -1,4 +1,4 @@
-/* General */
+/* Gerais */
 
 .clearfix:before,
 .clearfix:after{
@@ -64,6 +64,8 @@ footer{
 	text-align: center;
 	width: 100%;
 }
+
+/* Classes Genéricas */
 
 .row{
 	margin-right: 0;
@@ -138,9 +140,22 @@ footer{
 		border: 1px solid #00809e;
 	}
 
-#participantes{
+/* Classes e IDs específicas */
 
+#participantes{
 	background-color: #E5E6E7;
+}
+
+#parceiros{
+
+	height: 500px;
+	margin-top: 5rem;
+}
+
+
+
+#sobre,#informacoes{
+	color: #000;
 }
 
 .title{
@@ -217,7 +232,6 @@ footer{
 	transition: all .3s ease-in-out;
 
 }
-
 	
 .square-2{
 
@@ -246,28 +260,10 @@ footer{
 
 }
 
-
-#parceiros{
-
-	height: 500px;
-	margin-top: 5rem;
-}
-
-
 .icon-white{
 
 	margin: 0.5rem;
 }
-
-
-
-/*Sobre */
-
-
-#sobre,#informacoes{
-	color: #000;
-}
-
 
 .galeria-conferencia img{
 	padding: 1em;
@@ -508,6 +504,10 @@ footer{
 		footer{
 		height: 80px;
 		line-height: 80px;
+	}
+
+	.popup > div{
+		font-size: 1.5em;
 	}
 }
 
