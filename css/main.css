@@ -148,9 +148,13 @@ footer{
 
 #parceiros{
 
-	height: 500px;
 	margin-top: 5rem;
+	margin-bottom: 5rem;
 }
+
+	#parceiros img{
+		padding: 2rem;
+	}
 
 
 
